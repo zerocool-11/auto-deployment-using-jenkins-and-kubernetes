@@ -19,13 +19,14 @@
  it will get trigger after the successful execution of job 1 for this job i made 2 type of yml file 
  1. for php
  2. for html
- so it the code is for php it will launch the dep for php type code using one custom php image and same for html
+ 
+ so if the code is for php it will launch the dep for php type code using one custom php image and same for html
 ![alt text](https://github.com/zerocool-11/auto-deployment-using-jenkins-and-kubernetes/blob/master/images/task-3-dep.png)
 
 #### job 3
 this will test the code using curl   if the testing fails job 4 will get triggered which will mail the developer
-![alt text](https://github.com/zerocool-11/auto-deployment-using-jenkins-and-kubernetes/blob/master/images/task-3-testing.jpg)
+![alt text](https://github.com/zerocool-11/auto-deployment-using-jenkins-and-kubernetes/blob/master/images/task-3-testing.png)
 
 ### Here's the full pipeline view of this project
-![alt text](https://github.com/zerocool-11/auto-deployment-using-jenkins-and-kubernetes/blob/master/images/task-3-view.jpg)
+![alt text](https://github.com/zerocool-11/auto-deployment-using-jenkins-and-kubernetes/blob/master/images/task-3-view.png)
 
